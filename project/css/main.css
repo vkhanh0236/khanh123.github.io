@@ -1,0 +1,395 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+p{
+    margin: 0;
+}
+html{
+    font-size: 16px;
+}
+/* .container{
+    padding: 0;
+    margin: 0 5rem;
+} */
+.container{
+    width: 1280px;
+    padding: 0;
+}
+
+.btn{
+    border: solid 2px transparent;
+    border-radius: inherit;
+}
+
+/* css header */
+header{
+    background-color: #ed71a3;
+    width: 100%;
+}
+
+.header-navbar{
+    max-height: 5rem;
+}
+
+.menu-icon-image{
+    width: 32px;
+}
+.dropdown{
+    margin: auto 0;
+    display: none;
+}
+.dropdown-menu>p{
+    font-size: 1.5rem;
+    color: #ed71a3;
+}
+.dropdown-menu{
+    border-color: #ed71a3;
+}
+
+.dropdown-text{
+    text-decoration: none;
+    color: #ed71a3;
+    background-color: transparent;
+    font-size: 1.5rem;
+    display: block;
+}
+
+.header-navbar-logo>a>img{
+    width: 302px;
+}
+.header-navbar-search{
+    margin: 1rem 0 1rem 1.5rem ;
+    max-height: 3rem;
+    display: flex;
+    border-radius: 8px;
+    background-color: #fff;
+    width: 100%;
+}
+
+.header-navbar-search>input{
+    width: 100%;
+    height: 100%;
+    font-size: 1.2rem;
+    padding: 0 16px ;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.header-navbar-search>img{
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    
+}
+
+
+.header-navbar-button>button{
+    margin: 1.5rem 0 1.5rem 1.5rem;
+    max-width: 5.3rem;
+    display: flex;
+    background-color: transparent;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    padding: 0;
+}
+
+.header-navbar-button>button>p{
+    font-size: 1rem;
+    margin-left: -8px;
+    margin-bottom: 0;
+    line-height: normal;
+}
+.header-navbar-button>.header-navbar-button-map{
+    min-width: 12rem;
+    margin-right: 0;
+}
+.header-navbar-button>.header-navbar-button-map>p{
+    margin-top: 12px;
+    margin-left: 0;
+}
+
+/* css main */
+main{
+    display: block;
+    margin-bottom: 1.5rem;
+}
+
+/* css menu */
+.menu{
+    border:solid 2px #ed71a3;
+    float: left;
+    width: 18.875rem;
+    display: block;
+    margin-bottom: 1.5rem;
+}
+
+ .menu>div>a>img{
+    padding: 0.5rem;
+}
+
+.menu>div>p{
+    font-size: 1.5rem;
+    margin-bottom: auto;
+    color: #fff;
+    background-color: #ed71a3;
+    width: 100%;
+    text-decoration: none;
+}
+.menu-list > li {
+    list-style-type: none;
+    border-bottom: 1px solid #ffebf7;
+}
+.menu-list > li > a{
+    text-decoration: none;
+    color: #ed71a3;
+    display: block;
+    font-size: 1.5rem;
+}
+
+/* css carousel */
+.carousel{
+    width: calc(100% - 302px);
+    float: right;
+    padding-left:1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.carousel-item>img{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/* css product */
+.product{
+    width: 100%;
+    margin: auto;
+}
+.col,.col-12{
+    padding: 0;
+}
+
+.product-nameA{
+    height: 4rem;
+    
+}
+
+.product-name{
+    height: 100%;
+    background-color: #ed71a3;
+}
+
+.product-N{
+    font-size: 1.5rem;
+    padding: 20px 0 0 24px;
+    color: #fff;
+}
+
+.product-banner > img{
+    width: 100%;
+}
+
+.product-item{
+    padding: 24px;
+}
+.product-item-name{
+    min-height: 3rem;
+    font-size: 1.125rem;
+    color: #5a5a5a;
+    font-style: normal;
+}
+.product-item-sale{
+    color: #ca3672;
+}
+.product-item-price{
+    color: #5a5a5a;
+}
+.product-item-addtocart{
+    width: 100%;
+    height: 2.875rem;
+    color: #ed71a3;
+    border-color: #ed71a3;
+    margin: auto;
+    font-size: 1.25rem;
+}
+.product-item-image{
+    width: 100%;
+}
+
+/* css button more */
+.product-moreA{
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.btn-more{
+    border-color: #ed71a3;
+    padding: 1rem 3.5rem;
+}
+
+/* css banner */
+.banner{
+    width: 100%;
+    margin: 1.5rem 0;
+}
+.banner > img{
+    width: 100%;
+} 
+
+/* css footer */
+footer{
+    padding: 0 80px;
+    background-color: #6d6d6d;
+}
+/* .footer-content{
+    max-height: 18.25rem;
+} */
+.footer-title{
+    color: #d4d4d4;
+    font-size: 1.25rem;
+    margin: 1.25rem 0 0 0;
+}
+.footer-link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.25rem;
+}
+.footer-image{
+    margin-top: 1.5rem;
+    width: 13.5rem;
+    height: 5rem;
+}
+.footer-content-company{
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
+
+
+/* hover */
+.header-navbar-search>img:hover{
+    background-color: #ed71a3;
+    cursor: pointer;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-item:hover{
+    background-color: #ed71a3;
+}
+.dropdown-text:hover{
+    background-color: #ed71a3;
+    color: #fff;
+}
+.header-navbar-button>button:hover{
+    cursor: pointer;
+    background-color: #ed71a3;
+}
+.btn-more:hover{
+    color: white;
+    background-color: #ed71a3;
+}
+.product-item:hover{
+    box-shadow: 0 0 10px 0 hsl(0deg 0% 60% / 60%);
+    border-radius: 8px;
+    transition-duration: 0.5s;
+}
+.product-item-addtocart:hover{
+    color: white;
+    background-color: #ed71a3;
+}
+footer>div>a:hover{
+    color: #ed71a3;
+}
+
+.menu-list > li > a:hover{
+    color: #fff;
+    background-color: #ed71a3;
+}
+.menu-icon-product:hover .menu-icon-list{
+    display: block;
+}
+
+
+/* responsive */
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px ) {
+    html{
+        font-size: 12px;
+    }
+    .header-navbar-logo{
+        display: none;
+    } 
+    .container{
+        width: 100%;
+    }
+    .menu{
+        display: none;
+    }
+    .dropdown{
+        display: block;
+    }
+    .carousel{
+        float: none;
+        width: 100%;
+        padding-left: 0;
+    }
+    .product>div:nth-child(n + 7){
+        display: none;
+    }
+ }
+
+/*  Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    .header-navbar-logo{
+        display: none;
+    } 
+    .container{
+        width: 100%;
+    }
+    .menu{
+        display: none;
+    }
+    .dropdown{
+        display: block;
+    }
+    .carousel{
+        float: none;
+        width: 100%;
+        padding-left: 0;
+    }
+ }
+
+/*  Large devices (desktops, 992px and up) */
+@media (max-width: 992px) { 
+    .header-navbar-logo{
+        display: none;
+    } 
+    .container{
+        width: 100%;
+    }
+    .menu{
+        display: none;
+    }
+    .dropdown{
+        display: block;
+    }
+    .carousel{
+        float: none;
+        width: 100%;
+        padding-left: 0;
+    }
+ }
+
+/*  Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) { 
+
+ }
